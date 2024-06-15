@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+    <title>Penjadwalan Pesanan Restoran</title>
+  </head>
+  <body>
+    <div class="frame-menu">
+        <button onclick="return window.location.href = 'menuUtama.html'" class="tombol-menu active"> Menu Utama</button>
+        <button onclick="return window.location.href = 'tentang.html'" class="tombol-menu"> Tentang </button>
+        <button id="logout" class="tombol-menu logout"> Logout </button>
+        <div class="judul-menu-utama">
+            <h1> Penjadwalan Pesanan Restoran</h1>
+        </div>
+        <div class="card-menu menu-makanan">
+           <div class="label-menu">Menu Makanan</div>
+           <div class="sub-card menu_makan">
+                <div id="1" class="label-makanan m-active">Kentang Goreng</div>
+                <button class="tombol-lihat">Lihat</button>
+                <div id="2" class="label-makanan">Gorengan</div>
+                <button class="tombol-lihat">Lihat</button>
+                <div id="3" class="label-makanan">Snack</div>
+                <button class="tombol-lihat">Lihat</button>
+                <div id="4" class="label-makanan">Nasi Goreng</div>
+                <button class="tombol-lihat">Lihat</button>
+                <div id="5" class="label-makanan">Mie Goreng</div>
+                <button class="tombol-lihat">Lihat</button>
+                <div id="6" class="label-makanan">Sate Tusuk</div>
+                <button class="tombol-lihat">Lihat</button>
+                <div id="7" class="label-makanan">Teh Hangat</div>
+                <button class="tombol-lihat">Lihat</button>
+                <div id="8" class="label-makanan">Jus Buah</div>
+                <button class="tombol-lihat">Lihat</button>
+           </div>
+        </div>
+        <div class="card-menu detail-makanan">
+            <div class="label-menu nama-makanan">Kentang Goreng</div>
+            <div class="gambar-makanan">
+                <img src="gambar/Kentang Goreng.jpg" alt="">
+            </div> 
+            <div class="sub-card detail">
+                <div class="label-detail harga"><p>Harga (Rupiah)</p></div>
+                <div class="output-detail output-harga"><p>5000</p></div>
+                <div class="label-detail output-waktu"><p>Waktu Tunggu (detik)</p></div>
+                <div class="output-detail output-waktu-tunggu"><p>15</p></div>
+            </div>
+        </div>
+        <div class="card-menu pesanan">
+            <div class="label-menu">Pesanan</div>
+            <div class="sub-card pesan">
+                <div class="pesan-masuk">
+
+                </div>
+                <div class="total-pesanan">
+                    <div class="label-detail total-harga"><p>Total Harga</p></div>
+                    <div class="output-detail total-output"><p>0</p></div>
+                    <div class="label-detail total-output-waktu"><p>Total Waktu Tunggu</p></div>
+                    <div class="output-detail total-output" ><p>0</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="card-menu waktu-tunggu">
+            <div class="label-menu">Waktu Tunggu</div>
+            <div class="sub-card waktu">
+                
+            </div>
+        </div>
+        <button class="tombol_makan buat_pesanan">Buat Pesanan</button>
+        <button class="tombol_makan hapus_pesanan">Hapus Pesanan</button>
+        <button class="tombol_makan kirim_pesanan">Kirim Pesanan</button>
+      </div>
+    </div>
+    <!-- <div class="timer-waktu display-none"><p>0</p></div> -->
+    <script src="script.js"></script>
+  </body>
+</html>

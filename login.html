@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+    <title>Penjadwalan Pesanan Restoran</title>
+  </head>
+  <body>
+    <div class="frame-login">
+      <div class="subFrame-login">
+        <h1 class="judul">Penjadwalan Pesanan Restoran</h1>
+        <div class="bgimage">
+          <img src="restaurant.jpeg" alt="" />
+        </div>
+        <div class="bgdark"></div>
+        <div class="form-login">
+          <h2>LOGIN</h2>
+          <label for="username">Enter Username</label>
+          <input type="text" name="username" placeholder="username" />
+          <label for="password">Enter Password</label>
+          <input type="password" name="password" placeholder="password" />
+
+          <button>Login</button>
+        </div>
+      </div>
+    </div>
+    <script>
+      login_button = document.querySelector("button");
+      login_button.addEventListener("click", function () {
+        input_username = document.querySelectorAll("input")[0];
+        input_password = document.querySelectorAll("input")[1];
+        Anggota = ["2306163", "2306144", "2306137", "2306162", "2306153"];
+        nama = ["Alamahul Bayan", "Rifki Ahmad", "Silvi Nur Halimah", "Aditia Permana", "Saepul Saban"];
+        for (let i = 0; i < Anggota.length; i++) {
+          if (input_username.value == Anggota[i] && input_password.value == "1234") {
+            alert("Masuk sebagai " + nama[i]);
+            window.location.href = "menuUtama.html";
+            return;
+          }
+        }
+        alert("Username atau Password Salah");
+        return;
+      });
+    </script>
+  </body>
+</html>

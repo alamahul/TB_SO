@@ -1,0 +1,657 @@
+/* reset css */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* end */
+
+body {
+  background-color: #dab7b7;
+}
+
+.frame-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+  width: 1177px;
+  height: 666px;
+  background-color: #ef6363;
+  border-radius: 30px;
+}
+
+.subFrame-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1112px;
+  height: 600px;
+  background-color: #ef6363;
+  border-radius: 30px;
+  border: 5px solid rgb(255, 255, 255);
+}
+
+.judul {
+  z-index: 999;
+  display: block;
+  width: 450px;
+  position: absolute;
+  margin-left: -500px;
+  margin-top: -400px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: #ffffff;
+  text-align: center;
+}
+
+.bgimage {
+}
+
+.bgimage img {
+  width: 534px;
+  height: 530px;
+  border-radius: 50px;
+}
+
+.bgdark {
+  display: block;
+  position: absolute;
+  width: 534px;
+  height: 530px;
+  background-color: black;
+  border-radius: 50px;
+  margin-left: -500px;
+  opacity: 0.5;
+}
+
+.form-login {
+  margin-left: 40px;
+  width: 458px;
+  height: 542px;
+  background-color: #444242;
+  border-radius: 50px;
+}
+
+.form-login h2 {
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: #ffffff;
+  text-align: center;
+}
+
+.form-login label {
+  margin-top: 50px;
+  margin-left: 50px;
+  padding: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+  width: 220px;
+  color: #ffffff;
+  background-color: #8e9a00;
+  text-align: center;
+  display: block;
+}
+
+.form-login input {
+  margin-top: 15px;
+  margin-left: 50px;
+  padding: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+  width: 340px;
+  height: 50px;
+  font-size: 18px;
+  display: block;
+}
+
+.form-login button {
+  margin-top: 100px;
+  margin-left: 50px;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+  width: 350px;
+  font-size: 18px;
+  font-weight: 600;
+  display: block;
+  color: #ffffff;
+  background-color: #00d021;
+  border: none;
+}
+
+.form-login button:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.frame-menu {
+  margin: auto;
+  margin-top: 10px;
+  width: 1177px;
+  height: 666px;
+  background-color: #ef6363;
+  border-radius: 30px;
+}
+
+.tombol-menu {
+  margin-top: 10px;
+  margin-left: 15px;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+  width: 250px;
+  font-size: 18px;
+  font-weight: 400;
+  display: inline-block;
+  color: #ffffff;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+}
+
+.tombol-menu a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.tombol-menu a:hover {
+  color: black;
+}
+
+.tombol-menu:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.active {
+  background-color: #00d021;
+}
+
+.logout {
+  width: 150px;
+  margin-left: 450px;
+}
+
+.judul-menu-utama {
+  margin-top: 15px;
+  margin-left: 15px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+  width: 1128px;
+  color: #ffffff;
+  background-color: #553b3b;
+  text-align: center;
+  display: block;
+  border-radius: 10px;
+  font-size: 24px;
+}
+
+.card-menu {
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 272px;
+  height: 475px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  vertical-align: top; /* menambahkan properti untuk mengatur posisi vertikal */
+}
+
+.label-menu {
+  text-align: center;
+  display: inline-block;
+  padding: 8px;
+  margin-top: 10px;
+  margin-left: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+  width: 240px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #553b3b;
+  border: none;
+  border-radius: 10px;
+}
+
+.menu-makanan {
+  height: 525px;
+}
+
+.sub-card {
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 11px;
+  width: 250px;
+  height: 400px;
+  background-color: #444242;
+  border-radius: 10px;
+}
+
+.menu_makan {
+  margin-top: 7px;
+  height: 450px;
+}
+
+.tombol_makan {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  padding: 8px;
+  margin-top: -40px;
+  margin-left: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+  width: 275px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #553b3b;
+  border: none;
+  border-radius: 10px;
+  vertical-align: top;
+}
+
+.tombol_makan:hover {
+  background-color: #00d021;
+}
+
+.buat_pesanan {
+  margin-left: 305px;
+}
+
+.label-makanan {
+  text-align: center;
+  display: inline-block;
+  padding: 8px;
+  margin-top: 15px;
+  margin-left: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+  width: 150px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+}
+
+.m-active {
+  background-color: #00d021;
+}
+
+.tombol-lihat {
+  margin-top: 10px;
+  margin-left: 5px;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+  width: 60px;
+  font-size: 15px;
+  font-weight: 400;
+  display: inline-block;
+  color: black;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+}
+
+.tombol-lihat:hover {
+  background-color: #00d021;
+  color: #ffffff;
+}
+
+.gambar-makanan img {
+  margin-top: 10px;
+  margin-left: 11px;
+  width: 250px;
+  height: 230px;
+}
+
+.detail {
+  margin-top: 5px;
+  height: 170px;
+}
+
+.label-detail {
+  text-align: left;
+  display: inline-block;
+  padding: 8px;
+  margin-top: 10px;
+  margin-left: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+  width: 218px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+}
+.label-detail p {
+  margin-left: 25px;
+}
+
+.harga {
+  background-color: #00d021;
+}
+
+.output-waktu {
+  background-color: #8e9a00;
+}
+
+.output-detail {
+  text-align: left;
+  display: inline-block;
+  padding: 8px;
+  margin-top: 4px;
+  margin-left: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+  width: 218px;
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+.output-detail p {
+  margin-left: 25px;
+}
+
+.pesan-masuk {
+  display: inline-block;
+  margin-top: -5px;
+  margin-left: 0px;
+  width: 250px;
+  height: 275px;
+  /* background-color: black; */
+  background-color: #444242;
+  border-radius: 10px;
+}
+
+.total-pesanan {
+  margin-top: -5px;
+}
+
+.total-harga {
+  font-size: 12px;
+  background-color: #00d021;
+  height: 7px;
+}
+
+.total-output {
+  font-size: 12px;
+  height: 7px;
+}
+
+.total-output-waktu {
+  font-size: 12px;
+  background-color: #8e9a00;
+  height: 7px;
+}
+
+.pesan-makanan {
+  text-align: left;
+  display: inline-block;
+  padding: 8px;
+  margin-top: 5px;
+  margin-left: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+  width: 218px;
+  height: 6px;
+  font-weight: 400;
+  color: black;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.pesan-makanan p {
+  margin-top: -4px;
+  margin-left: 15px;
+}
+
+.nama-pesanan {
+  text-align: left;
+  display: inline-block;
+  padding: 8px;
+  margin-top: 3px;
+  margin-left: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+  width: 218px;
+  font-size: 12px;
+  font-weight: 400;
+  color: black;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+.timer-waktu {
+  text-align: center;
+  display: inline-block;
+  padding: 8px;
+  margin-top: 3px;
+  margin-left: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+  width: 218px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+}
+
+.done {
+  background-color: #00d021;
+}
+
+.done:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.process {
+  background-color: #8e9a00;
+}
+
+.frame-tentang {
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 560px;
+  height: 290px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  vertical-align: top;
+}
+
+.label-tentang {
+  text-align: center;
+  display: inline-block;
+  padding: 8px;
+  margin-top: 10px;
+  margin-left: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+  width: 530px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #553b3b;
+  border: none;
+  border-radius: 10px;
+}
+
+.foto-tim {
+  display: inline-block;
+  position: relative;
+
+  margin-top: -595px;
+  margin-left: 590px;
+  width: 570px;
+  height: 590px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  vertical-align: top;
+}
+
+.tentang-aplikasi {
+}
+
+.gambar-tim {
+  width: 560px;
+}
+
+.text-tentang {
+  margin-top: 18px;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.display-none {
+  display: none;
+}
